@@ -44,7 +44,9 @@
   div {
     display: flex;
     flex-flow: column;
-    place-items: center
+    place-items: center;
+    max-width: 100%;
+    height: auto;
   }
   form {
     border-radius: 1.5rem;
