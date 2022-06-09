@@ -1,3 +1,3 @@
 # Dynamic Search On Input
 
-Automatic search on input
+Dynamic search on input
