@@ -6,16 +6,13 @@
 	async function getData(q) {
     const res = await fetch(`https://jsonplaceholder.typicode.com/photos/${q}`);
     const data = await res.json();
-    
-    console.log(data)
-    
+      
     if (res.ok) {
       return data;
     } 
 	}
 	
 	function handleInput(q) {
-    console.log(q)
     promise = getData(q);   
 	}
 
